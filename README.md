@@ -20,7 +20,17 @@ Seguir el ejemplo de .env.example para completar la información necesaria para 
 Crear un entorno virtual
 ```
 python3 -m venv .venv
-source .venv/bin/activate
+Luego, activa el entorno virtual. El comando varía según tu sistema operativo:
+
+- **En Windows:**
+  ```
+  .venv\Scripts\activate
+  ```
+
+- **En macOS y Linux:**
+  ```
+  source .venv/bin/activate
+  ```
 ```
 
 Instalar dependencias
