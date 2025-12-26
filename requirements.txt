@@ -12,3 +12,4 @@ wikipedia
 python-dotenv
 chromadb
 pandas
+langchain-tavily
